@@ -1,0 +1,51 @@
+# =======================
+# PHP / MySQL Project
+# =======================
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+*.sql
+*.sql.gz
+*.tmp
+*.bak
+
+# PHP specific
+/vendor/
+composer.lock
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache & session
+cache/
+sessions/
+*.sess
+*.cache
+
+# Node (if frontend uses npm)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment / Credentials
+.env
+db_connect.php
+config.php
+
+# Generated barcodes / uploads
+uploads/
+barcodes/
+*.png
+*.jpg
+
+# Backup files
+*.old
+*.orig
+*.save
